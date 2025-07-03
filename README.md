@@ -2,9 +2,7 @@
 
 This is a simple and stylish **Clock & Countdown Timer Web App** built using HTML, CSS, and JavaScript. It shows the current real-time clock and also allows users to set a countdown timer with Start, Pause, and Reset options.
 
-## 🌐 Live Demo
-
-🔗 [Live Demo](clock-timer-app-eta.vercel.app)
+### 🔗 Live Demo: [Click here](https://clock-timer-app-eta.vercel.app/)
 
 
 ---
