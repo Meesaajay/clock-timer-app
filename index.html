@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clock & Timer App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>⏳ Clock & Timer</h1>
+
+    <div class="clock" id="clock">--:--:--</div>
+
+    <div class="timer-section">
+      <h2>Countdown Timer</h2>
+      <div class="inputs">
+        <input type="number" id="minutes" placeholder="Minutes" min="0" />
+        <input type="number" id="seconds" placeholder="Seconds" min="0" />
+      </div>
+
+      <div class="buttons">
+        <button onclick="startCountdown()">Start</button>
+        <button onclick="pauseCountdown()">Pause</button>
+        <button onclick="resetCountdown()">Reset</button>
+      </div>
+
+      <div class="timer-display" id="timerDisplay">00:00</div>
+    </div>
+  </div>
+
+  <audio id="alarmSound" src="https://www.soundjay.com/button/beep-07.wav" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
+    
